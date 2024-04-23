@@ -1,0 +1,248 @@
+*{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.nav1{
+    top: 0;
+    position:sticky;
+    z-index: 5;
+    background-color: rgb(252, 223, 223);
+}
+.logo{
+    font-size: 30px;
+}
+.logo i{
+    font-size: 30px;
+}
+.phone1{
+    font-size: 25px;
+    justify-self: flex-start;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.phone2{
+    font-size: 25px;
+    justify-self: center;
+    margin-top: 5px;
+}
+.emergency-number{
+    border: 2px solid red;
+    background-color: white;
+    height: 40px;
+    width:140px;
+    border-radius: 1rem;
+}
+.emergency-number:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    background-color: red;
+}
+.Appointment-number{
+    border: 2px solid blue;
+    background-color: white;
+    height: 40px;
+    width:140px;
+    border-radius: 1rem;
+}
+.Appointment-number:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    background-color: blue;
+    color: white;
+}
+
+.login{
+    background-color: white;
+    font-weight:bold;
+    font-size: larger;
+    border-radius: 1rem;
+    height: 40px;
+    width:120px;
+}
+
+.login:hover{
+    transform: scale(1.1,1.1);
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 2px black;
+    cursor: pointer;
+}
+.nav2{
+    display: flex;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.search input{
+    width:400px;
+    height: 40px;
+    border-radius: 1rem;
+}
+
+.home{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.home:hover{
+    transform: scale(1.1,1.1);
+}
+.specialities select{
+    width: 150px;
+    height: 40px ;
+    border-radius: 1rem;
+}
+.specialities select:hover{
+    cursor: pointer;
+}
+.about{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.about:hover{
+    transform: scale(1.1,1.1);
+}
+hr{
+    box-shadow: 0 0 3px black;
+}
+.Reviews{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.Reviews:hover{
+    transform: scale(1.1,1.1);
+}
+.images{
+    background-color: rgba(11, 49, 10, 0.584);
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+   
+}
+.img1
+{
+    position: relative;
+    left:450px;
+    padding: 10px;
+    animation:slideshow2  15s ease-in 0s infinite alternate;
+    border-radius: 1rem;
+}
+.img2{
+    position:  relative;
+    left: 1500px;
+    padding: 10px;
+    border-radius: 1rem;
+    animation:slideshow 15s ease-in  0s infinite alternate;
+}
+
+@keyframes slideshow2{
+    0%{
+        left:450px;
+    }
+    50%{
+        left:-700px;
+    }
+    100%{
+        left:-1900;
+    }
+}
+ 
+
+@keyframes slideshow{
+    0%{
+        left:-1500px
+    }
+    100%{
+        left:1500px;
+    }
+}
+
+
+.cards{
+    display: flex;
+}
+
+.bottomimg{
+    width: 1500px
+}
+
+.cards{
+    padding: 100px;
+}
+
+.profile1{
+    margin-left:100px ;
+    margin-right: 100px;
+}
+
+.profile2{
+    margin-right: 90px;
+}
+
+.pro{
+    border: 4px solid black;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+}
+.pro:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+    transform: scale(1.1,1.1);
+}
+.cards1{
+    margin-left: 500px;
+    margin-right: 495px;
+    margin-bottom: 50px;
+    border: 4px solid black;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    
+}
+.cards1:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+    transform: scale(1.1,1.1);
+}
+.footer-container{
+    width: 1499px;
+    height: 600px;
+    background-color: black;
+    
+
+}
+.reviews{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: x-large;
+    color: white;
+    font-family: sans-serif;
+}
+.final{
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    margin-left: 50px;
+    padding-left: 100px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+.icons a{
+    color: white;
+}
